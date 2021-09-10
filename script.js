@@ -28,7 +28,7 @@ let countriesInfo = [{
     capital: "Reykjavik"}]
 
 
-for(i =0;i<countriesInfo.length-1;i++){
+for(i =0;i<countriesInfo.length;i++){
     const classElement = document.createElement("div");
   
     classElement.setAttribute("class", "card");
